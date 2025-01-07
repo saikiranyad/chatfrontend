@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import axios from 'axios';
 import './App.css';
 
-const socket = io('http://localhost:5000');
+const socket = io('https://chatbackend-4hjt.onrender.com');
 
 function App() {
   const [group, setGroup] = useState('');
